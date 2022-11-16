@@ -1,0 +1,72 @@
+/* document css */
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-decoration: none;
+    max-width: 1100px;
+}
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 75vw;
+    border: solid #8F9599 0.1px;
+    margin: auto;
+    padding: 20px;
+    max-height: 60vh;
+    max-width: 75vw;
+}
+
+.space-top{
+    height: 18vh;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.face-button{
+    color: white;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 7px;
+    width: 75vw;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: gray;
+}
+
+p, h3{
+    text-align: center;
+    padding: 15px;
+}
+
+.enter-button{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    height: 30px;
+    margin: 5px;
+}
